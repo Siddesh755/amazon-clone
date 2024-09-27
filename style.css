@@ -2,13 +2,14 @@
     margin: 0;
     font-family: Arial;
     border: border_box;
-    align-items: center;
+    
 }
 .navbar{
     height: 60px;
     background-color: #0f1111;
     color: white;
     display: flex;
+    align-items: center;
  }
  .nav-logo {
     height: 58px;
@@ -50,4 +51,10 @@
     background-color: rgb(154, 85, 2);
     width: 620px;
     height: 40px;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
 }
