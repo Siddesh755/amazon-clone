@@ -10,6 +10,7 @@
     color: white;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
  }
  .nav-logo {
     height: 58px;
@@ -48,13 +49,75 @@
 
 .nav-search{
     display: flex;
+    justify-content: space-evenly;
     background-color: rgb(154, 85, 2);
     width: 620px;
     height: 40px;
+    border-radius: 4px;
 }
 
 .search-select {
     background-color: #f3f3f3;
     width: 50px;
     text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: rgb(236, 100, 51);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color:#0f1111;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+    
+}
+/**box 4**/
+.lan-select {
+ font-size: 1.5rem;
+ align-items: center;
+ justify-items: center;
+    
+}
+.nav-lan:hover{
+    border: 2px solid orange;
+}
+span{
+    font-size: 0.8rem;
+
+}
+.nav-two{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+span1{
+    font-size: 0.8rem;
+
+}
+.nav-three{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+/** box**/
+.nav-cart i{
+    font-size: 35px;
+}
+.nav-cart{
+    font-size: 1.2rem;
+    font-weight: 800;
 }
